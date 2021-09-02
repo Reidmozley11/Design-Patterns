@@ -48,6 +48,7 @@ public class Store implements Observer {
 
     /**
      * Displays the Top 5 Best Selling books within the queue 
+     * Reference: https://stackoverflow.com/questions/5413934/values-in-queue-java
      */
     public void display() {
         System.out.println("Top 5 Best Sellers:");
