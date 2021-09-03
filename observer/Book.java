@@ -50,6 +50,6 @@ public class Book {
      * Uses the getter methods to create an output toString() to be used by the observer classes display() methods. 
      */
     public String toString(){
-        return "-" + getTitle() + " " + getAuthorFirstName() + " " + getAuthorLastName();  
+        return "-" + getTitle() + " by:" + " " + getAuthorFirstName() + " " + getAuthorLastName();  
     }
 }
