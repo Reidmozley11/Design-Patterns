@@ -8,8 +8,8 @@ public class Mouth extends CharacterDecorator{
     }
 
     public void customize(){
-        String mouth = " \\ ---- / ";
-        sections.add(mouth); 
+        String mouth = "  \\ ---- / ";
+        sections.set(5, mouth); 
     }
     
 }

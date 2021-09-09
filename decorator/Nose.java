@@ -9,7 +9,7 @@ public class Nose extends CharacterDecorator{
     }
 
     public void customize(){
-        String nose = "|   >    |"; 
-        sections.add(nose); 
+        String nose = " |   >    |"; 
+        sections.set(4, nose); 
     }
 }

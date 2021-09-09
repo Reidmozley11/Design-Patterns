@@ -1,13 +1,14 @@
 package decorator;
 
+import java.util.ArrayList;
+
 public abstract class CharacterDecorator extends Character {
     
-    protected Character characater;
+    protected Character character;
 
-    public CharacterDecorator(Character character){
-        this.characater = character; 
-        for(String string : sections){
-            this.sections.add(string); 
+    public CharacterDecorator(Character character){ 
+        for(int i = 0; i < character.sections.size(); i++){
+                this.sections.add(character.sections.get(i)); 
         }
         customize();
     }

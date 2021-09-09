@@ -1,9 +1,8 @@
 package decorator;
 
-public class Hat extends CharacterDecorator{
-    
-
-
+public class Hat extends CharacterDecorator{                       
+                                                                                                                                        
+                                                                                                                                   
     public Hat(Character character) {
         super(character);
     }
@@ -11,7 +10,7 @@ public class Hat extends CharacterDecorator{
     public void customize(){
         String hatTop = "    ____";
         String hatBot = " __|____|____";
-        sections.add(hatTop);
-        sections.add(hatBot); 
+        sections.set(0, hatTop);
+        sections.set(1, hatBot); 
     }
 }
