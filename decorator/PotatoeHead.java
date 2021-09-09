@@ -1,4 +1,8 @@
 package decorator;
+/**
+ * A base model potato head character
+ * @author Reid Mozley
+ */
 
 public class PotatoeHead extends Character{
     public PotatoeHead(){
