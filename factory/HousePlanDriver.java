@@ -1,3 +1,4 @@
+package factory;
 /**
  * Runs the housing plans program
  */
@@ -20,4 +21,4 @@ public class HousePlanDriver {
         HousePlanDriver driver = new HousePlanDriver();
         driver.run();
     }
-}
+} 
