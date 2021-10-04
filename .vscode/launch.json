@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch AirlineDriver",
             "request": "launch",
             "mainClass": "iterator.AirlineDriver",
@@ -31,6 +32,19 @@
             "request": "launch",
             "mainClass": "observer.BookDriver",
             "projectName": "Design-Patterns_c67907f0"
+=======
+            "name": "Launch PotatoeDriver",
+            "request": "launch",
+            "mainClass": "decorator.PotatoeDriver",
+            "projectName": "Design-Patterns_1bbe28e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDriver",
+            "request": "launch",
+            "mainClass": "strategy.ListDriver",
+            "projectName": "Design-Patterns_1bbe28e2"
+>>>>>>> 43ef3d30b51358d58cc039e2650e62599c352ba8
         },
         {
             "type": "java",
