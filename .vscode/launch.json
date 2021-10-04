@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PotatoeDriver",
+            "request": "launch",
+            "mainClass": "decorator.PotatoeDriver",
+            "projectName": "Design-Patterns_1bbe28e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDriver",
+            "request": "launch",
+            "mainClass": "strategy.ListDriver",
+            "projectName": "Design-Patterns_1bbe28e2"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
