@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public abstract class CharacterDecorator extends Character {
     
     protected Character character;
-
+    
     /**
      * iterates through the array replacing the current character with a customized character
      * to the users desire. 
@@ -18,7 +18,7 @@ public abstract class CharacterDecorator extends Character {
      */
     public CharacterDecorator(Character character){ 
         for(int i = 0; i < character.sections.size(); i++){
-                this.sections.add(character.sections.get(i)); 
+            this.sections.add(character.sections.get(i)); 
         }
         customize();
     }

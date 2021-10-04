@@ -7,8 +7,8 @@ import java.util.ArrayList;
 
     BinarySearch bSearch = new BinarySearch();
     LinearSearch lSearch = new LinearSearch();
-
-    static ArrayList<String> guests = new ArrayList<String>();
+    
+    private static ArrayList<String> guests = new ArrayList<String>();
     private String title = " ";
     /**
      * Adds a title to the guest list 
@@ -26,19 +26,19 @@ import java.util.ArrayList;
     public boolean add(String person){
         if(searchBehavior == bSearch){
             if(bSearch.contains(guests, person)) {
-                guests.add(person); 
                 return false; 
             }
             else {
+                guests.add(person);
                 return true;
             }
         }
         else{
-            if(lSearch.contains(guests, person)) {
-                guests.add(person); 
+            if(lSearch.contains(guests, person.toLowerCase())) { 
                 return false; 
             }
             else {
+                guests.add(person);
                 return true;
             }
         }

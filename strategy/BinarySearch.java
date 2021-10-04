@@ -4,7 +4,9 @@ package strategy;
 //https://www.geeksforgeeks.org/binary-search-a-string/
 
 import java.io.*; 
-import java.util.*; 
+import java.util.*;
+
+import javax.sound.midi.MidiDevice; 
 
 public class BinarySearch implements SearchBehavior{
 
@@ -21,10 +23,11 @@ public class BinarySearch implements SearchBehavior{
              * This ensures all possibilites have been run through. 
              * If it finds the correct value before that it just returns true. 
              */
+            boolean lost = true; 
             while (left <= right){
                    int middleGuest = left + (right-left)/2;
     
-                   int find = item.compareToIgnoreCase(data.get(middleGuest)); 
+                   int find = item.compareTo(data.get(middleGuest).toLowerCase()); 
     
                    if(find == 0){
                        return true; 
@@ -36,9 +39,9 @@ public class BinarySearch implements SearchBehavior{
                     else {
                         right = middleGuest - 1; 
                     }
-    
+                    lost = false; 
              }
-             return false;
+            return lost;
         }
 }
 

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AirlineDriver",
+            "request": "launch",
+            "mainClass": "iterator.AirlineDriver",
+            "projectName": "Design-Patterns_c67907f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HousePlanDriver",
+            "request": "launch",
+            "mainClass": "factory.HousePlanDriver",
+            "projectName": "Design-Patterns_c67907f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PotatoeDriver",
+            "request": "launch",
+            "mainClass": "decorator.PotatoeDriver",
+            "projectName": "Design-Patterns_c67907f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BookDriver",
+            "request": "launch",
+            "mainClass": "observer.BookDriver",
+            "projectName": "Design-Patterns_c67907f0"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
